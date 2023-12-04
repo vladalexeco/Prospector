@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/titleRename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Переименовать файл"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/rename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=""
+        android:text=""
+        android:inputType="textPersonName" />
+
+</LinearLayout>

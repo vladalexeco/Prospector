@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/save_points"
+        android:title="Save points"
+        android:onClick="menuOnClickSavePoints"/>
+    <item
+        android:id="@+id/export_xls"
+        android:title="Export to excel"
+        android:onClick="menuOnClickExportToExcel"/>
+    <item
+        android:id="@+id/export_kml"
+        android:title="Export to kml"
+        android:onClick="menuOnClickExportToKml"/>
+    <item
+        android:id="@+id/send_email"
+        android:title="Send Email"
+        android:onClick="menuOnClickSendEmail" />
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:onClick="menuOnClickSettings" />
+
+</menu>

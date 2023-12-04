@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">Prospector</string>
+    <!--    for TopLevelActivity-->
+    <string-array name="table_of_contents">
+        <item>Новый журнал</item>
+        <item>Загрузить журнал</item>
+        <item>Загрузить последний журнал</item>
+    </string-array>
+    <!--    for JournalActivity-->
+    <string name="add_journal_btn">Добавить</string>
+    <string name="del_journal_btn">Удалить</string>
+    <string name="ord">№</string>
+    <string name="search">Поиск</string>
+    <string name="mad">МАД</string>
+    <string name="index">Индекс</string>
+    <string name="comment">Комментарий</string>
+    <!--    for SearchScreenActivity-->
+    <string name="search_screen_header">Окно поиска</string>
+    <string name="latitude_label">Северная широта</string>
+    <string name="longitude_label">Восточная долгота</string>
+    <!--    for dialogs-->
+    <string name="manual_input">Ручной ввод</string>
+    <string name="enter_val">Введите значение</string>
+    <string name="enter_comment">Комментарий</string>
+    <!--    for DialogIndexInfo-->
+    <string name="info1">1 - почва</string>
+    <string name="info2">2 - щебень гранитный</string>
+    <string name="info3">3 - щебень доломитовый</string>
+    <string name="info4">4 - глинистые породы</string>
+    <string name="info5">5 - коренные горные породы</string>
+    <string name="info6">6 - песок</string>
+    <string name="info7">7 - бетон</string>
+    <string name="info8">8 - асфальт</string>
+    <string name="info9">9 - кирпич</string>
+    <!--    For CommentScreenActivity-->
+    <!--    Массивы для расширенного списка комментариев-->
+    <string-array name="glade">
+        <item>поляна</item>
+        <item>лужайка</item>
+        <item>луг</item>
+        <item>поле</item>
+        <item>полисадник</item>
+    </string-array>
+
+    <string-array name="rails">
+        <item>ж/д путь</item>
+        <item>у ж/д пути</item>
+        <item>на ж/д пути</item>
+        <item>междупутье</item>
+        <item>перрон</item>
+    </string-array>
+
+    <string-array name="road">
+        <item>дорога</item>
+        <item>у дороги</item>
+        <item>остановка</item>
+        <item>автодорога</item>
+        <item>у автодороги</item>
+        <item>грунтовая дорога</item>
+        <item>тропинка</item>
+        <item>тропа</item>
+        <item>проселочная дорога</item>
+        <item>лесная тропа</item>
+        <item>переезд</item>
+    </string-array>
+
+    <string-array name="forest">
+        <item>лес</item>
+        <item>роща</item>
+        <item>лесополоса</item>
+        <item>чаща</item>
+        <item>опушка леса</item>
+        <item>бурелом</item>
+        <item>перелесок</item>
+        <item>вырубка</item>
+    </string-array>
+
+    <string-array name="mound">
+        <item>насыпь</item>
+        <item>у насыпи</item>
+        <item>бровка насыпи</item>
+        <item>на склоне насыпи</item>
+        <item>подошва насыпи</item>
+    </string-array>
+
+    <string-array name="swamp">
+        <item>болото</item>
+        <item>у болота</item>
+        <item>засохшее болото</item>
+        <item>заболоченная местность</item>
+        <item>топь</item>
+        <item>торфяник</item>
+    </string-array>
+
+    <string-array name="waste">
+        <item>пустырь</item>
+        <item>отвал</item>
+        <item>свалка мусора</item>
+        <item>стоянка</item>
+        <item>автостоянка</item>
+    </string-array>
+
+    <string-array name="build">
+        <item>у здания</item>
+        <item>у разрушенного здания</item>
+        <item>у заброшенного здания</item>
+        <item>у депо</item>
+        <item>у гаража</item>
+        <item>у склада</item>
+        <item>у забора</item>
+    </string-array>
+
+    <string-array name="trench">
+        <item>канава</item>
+        <item>канал</item>
+        <item>обрыв</item>
+        <item>овраг</item>
+    </string-array>
+
+    <string-array name="river">
+        <item>у реки</item>
+        <item>у озера</item>
+        <item>у водоема</item>
+    </string-array>
+
+    <string-array name="jungle">
+        <item>заросли</item>
+        <item>у зарослей</item>
+        <item>кусты</item>
+    </string-array>
+
+    <string-array name="isso">
+        <item>ИССО</item>
+        <item>у ИССО</item>
+        <item>плиты</item>
+        <item>мост</item>
+        <item>у моста</item>
+    </string-array>
+
+    <!--    for PassportActivity-->
+    <string name="passport_header">Данные объекта:</string>
+    <string name="name">Имя оператора:</string>
+    <string name="object">Объект:</string>
+    <string name="number">Номер объекта:</string>
+    <string name="date">Дата:</string>
+    <string name="climate">Указать климатические параметры</string>
+    <!--    Климатические параметры в той же активности-->
+    <string name="temperature">Температура:</string>
+    <string name="humidity">Влажность:</string>
+    <string name="pressure">Давление:</string>
+    <string name="wind">Скорость ветра:</string>
+
+    <!--    for PointInfoActivity-->
+    <string name="infoPoint">Информация</string>
+    <string name="numberOfPoint">Номер точки: </string>
+    <string name="searchOfPoint">Значение поиска: </string>
+    <string name="madOfPoint">Значение МАД: </string>
+    <string name="groundOfPoint">Грунт: </string>
+    <string name="commentOfPoint">Комментарий: </string>
+    <string name="latitudeOfPoint">Северная широта: </string>
+    <string name="longitudeOfPoint">Восточная долгота: </string>
+
+
+    <!--    for LatitudeScreenActivity-->
+
+</resources>

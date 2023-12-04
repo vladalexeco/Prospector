@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_ripple"
+    android:clickable="true"
+    >
+<!--    android:background="?android:attr/selectableItemBackground"-->
+<!--    android:clickable="true"-->
+<!--    android:focusable="true"-->
+
+    <TextView
+        android:id="@+id/ord_item"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:id="@+id/search_item"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:id="@+id/mad_item"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:id="@+id/index_item"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:id="@+id/comment_item"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+</LinearLayout>

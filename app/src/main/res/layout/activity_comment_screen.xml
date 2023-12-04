@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommentScreenActivity">
+
+    <TextView
+        android:id="@+id/screenHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:columnCount="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/screenHeader">
+
+        <TextView
+            android:id="@+id/labelLat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/latitude_label" />
+
+        <TextView
+            android:id="@+id/valueLat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30 51 47.5"
+            app:layout_columnSpan="2"
+            app:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/labelLon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/longitude_label" />
+
+        <TextView
+            android:id="@+id/valueLon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60 17 33.7"
+            app:layout_columnSpan="2"
+            app:layout_gravity="center" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout">
+
+        <TextView
+            android:id="@+id/ord_item_search_screen_label"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/ord" />
+
+        <TextView
+            android:id="@+id/search_item_search_screen_label"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/search" />
+
+        <TextView
+            android:id="@+id/mad_item_search_screen_label"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/mad" />
+
+        <TextView
+            android:id="@+id/index_item_search_screen_label"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/index" />
+
+        <TextView
+            android:id="@+id/comment_item_search_screen_label"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="@string/comment" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/ord_item_screen_appoint"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/search_item_screen_appoint"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/mad_item_screen_appoint"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/index_item_screen_appoint"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/comment_item_screen_appoint"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:padding="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/glade"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="поляна"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/rails"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="ж/д путь"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/road"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="дорога"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/forest"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="лес"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mound"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="насыпь"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/swamp"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="болото"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/waste"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="пустырь"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/build"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="у здания"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/trench"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="канава"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/river"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="у реки"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/jungle"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="заросли"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/isso"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="ИССО"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnHandleEnter"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="Ввести"
+                android:onClick="onClickManualInputBtn"/>
+
+            <Button
+                android:id="@+id/btnEnter"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="Далее"
+                android:onClick="onClickEnterBtn"
+                style="@style/Widget.AppCompat.Button.Colored"/>
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="Отмена"
+                android:onClick="onClickCancelBtn"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

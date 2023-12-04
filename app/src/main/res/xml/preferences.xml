@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="relative_error"
+        android:title="Относительная ошибка"/>
+    <SwitchPreferenceCompat
+        android:key="change_theme"
+        android:title="Поменять тему"
+        />
+    <EditTextPreference
+        android:key="save_points"
+        android:title="Сохранение после N точек"
+        />
+</PreferenceScreen>

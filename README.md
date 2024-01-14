@@ -22,7 +22,7 @@
 следует произвести долгое нажатие на элемент с последующим выбором из выпадающего меню нужной опции. Также на экране имеется блок с кнопками для добавления и удаления элементов и строка с текущими географическими
 координатами, расстоянием до крайней точки описания и индикатором смены координаты.
 ### Основной экран и сопутствующие экраны редактирования
-![image](https://github.com/vladalexeco/Prospector/assets/27238541/65c1fa1e-4aff-4faa-af77-9f537f115807)
+![image](https://github.com/vladalexeco/Prospector/assets/27238541/7b5a74dd-f526-4375-b2e1-efadd1186dc6)
 ![image](https://github.com/vladalexeco/Prospector/assets/27238541/a225c47b-be73-4d3c-a246-164c3c50afd4)
 ![image](https://github.com/vladalexeco/Prospector/assets/27238541/161ada20-8618-4b4f-9ef0-341d3eced1a0)
 ## Меню приложения
